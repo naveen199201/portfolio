@@ -8,6 +8,7 @@
 }
 body {
   background-image: url("https://cdn.glitch.me/6ae7a7fc-8884-4ea6-827b-8a1edaa47a61%2Fteahub.io-gradient-wallpaper-hd-2761495.png");
+  background-size: 100% 100%;
 }
 html {
   scroll-behavior: smooth;
@@ -487,7 +488,7 @@ section .title::after {
 }
 
 .contact {
-  background-color: #111;
+  /* background-color: #111; */
 }
 .contact .title::after {
   content: "get in touch";
