@@ -260,7 +260,7 @@ section .title::after {
 }
 
 .education .title::after {
-  background: whitesmoke;
+  background: rgb(249, 247, 244);
   content: "my-education";
 }
 .education .serv-content .card {
@@ -273,8 +273,9 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .education .serv-content .card:hover {
-  background: crimson;
-  color: white;
+  background: rgb(207, 233, 198);
+  /* color: rgb(55, 62, 12); */
+  
 }
 .education .serv-content .card .box {
   transition: all 0.3s ease;
@@ -416,6 +417,8 @@ section .title::after {
   align-items: center;
   justify-content: center;
 }
+
+
 
 footer {
   background: #111;
