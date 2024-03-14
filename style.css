@@ -544,6 +544,11 @@ a.colo {
   .experience .serv-content .card {
     width: 100%;
   }
+  .education .serv-content .card {
+    flex: 0 1 calc(100% - 1em);
+    min-height: 250px;
+    margin-bottom: 20px;
+}
 }
 
 @media (max-width: 500px) {
