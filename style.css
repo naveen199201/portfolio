@@ -265,7 +265,7 @@ section .title::after {
 }
 .education .serv-content .card {
   width: calc(25% - 20px);
-  background-color: white;
+  background-color: rgb(207, 233, 198);
   text-align: center;
   border-radius: 6px;
   padding: 20px 3px;
@@ -273,8 +273,8 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .education .serv-content .card:hover {
-  background: rgb(207, 233, 198);
-  /* color: rgb(55, 62, 12); */
+  background: rgb(148, 245, 185);
+  
   
 }
 .education .serv-content .card .box {
@@ -293,6 +293,61 @@ section .title::after {
 }
 .education .serv-content .card .text {
   font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.experience,
+.achievements {
+  color: #111;
+  
+}
+.experience .title::before,
+.achievements .title::before,
+.contact .title::before {
+  background: #fff;
+}
+
+.experience .title::after,
+.achievements .title::after {
+  background: white;
+  content: "what i have done";
+}
+.experience .serv-content .card {
+  width: calc(45% - 20px);
+  min-height: 200px;
+  background:  rgb(207, 233, 198);
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.experience .serv-content .card:hover {
+  background: rgb(148, 245, 185);
+}
+.experience .serv-content .card .box {
+  transition: all 0.3s ease;
+}
+.experience .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+.experience .serv-content .card i {
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.experience .serv-content .card:hover i {
+  color: #fff;
+}
+.experience .serv-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.experience .serv-content .card .text-header {
+  color: #ff3d00;
+  font-size: 20px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
@@ -361,6 +416,9 @@ section .title::after {
 .skills-content .right .reactjs::before {
   width: 80%;
 }
+.skills-content .right .expressjs::before {
+  width: 90%;
+}
 .skills-content .right .python::before {
   width: 60%;
 }
@@ -377,10 +435,10 @@ section .title::after {
   width: 90%;
 }
 .skills-content .right .css::before {
-  width: 80%;
+  width: 85%;
 }
 .skills-content .right .materialUI::before {
-  width: 60%;
+  width: 90%;
 }
 
 
@@ -410,7 +468,7 @@ section .title::after {
   content: "get in touch";
 }
 .projects .title::after {
-  content: "my projects";
+  content: "worked on";
 }
 .projects {
   flex-direction: column;
