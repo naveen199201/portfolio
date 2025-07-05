@@ -33,7 +33,7 @@ section {
   padding: 100px 0;
 }
 .max-width {
-  max-width: 1300px;
+  max-width: 1400px;
   padding: 0 80px;
   margin: auto;
 }
@@ -314,8 +314,8 @@ section .title::after {
   content: "what i have done";
 }
 .experience .serv-content .card {
-  width: calc(45% - 20px);
-  min-height: 200px;
+  width: calc(33% - 20px);
+  min-height: 250px;
   background:  rgb(207, 233, 198);
   text-align: center;
   border-radius: 6px;
@@ -414,7 +414,7 @@ section .title::after {
   width: 75%;
 }
 .skills-content .right .reactjs::before {
-  width: 80%;
+  width: 90%;
 }
 .skills-content .right .expressjs::before {
   width: 90%;
@@ -437,7 +437,7 @@ section .title::after {
 .skills-content .right .css::before {
   width: 85%;
 }
-.skills-content .right .materialUI::before {
+.skills-content .right .TailwindCSS::before {
   width: 90%;
 }
 
@@ -476,7 +476,10 @@ section .title::after {
   justify-content: center;
 }
 
-
+.deploy-link{
+  padding-top: 8px;
+  padding-left: 5px;
+}
 
 footer {
   background: #111;
@@ -503,7 +506,7 @@ a.colo {
   color: black;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .home .max-width {
     margin-left: 0px;
   }
